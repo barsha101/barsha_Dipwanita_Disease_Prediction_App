@@ -9,9 +9,9 @@ import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
 
-heartDisease_model = pickle.load(open('C:/Users/91801/Desktop/Prediction App/prediction_models/heartDiseaseModel.sav','rb'))
-diabetes_model=pickle.load(open('C:/Users/91801/Desktop/Prediction App/prediction_models/Diabetes.sav','rb'))
-breastCancer_pred_model=pickle.load(open('C:/Users/91801/Desktop/Prediction App/prediction_models/breastCancerPredictionModel.sav','rb'))
+heartDisease_model = pickle.load(open('heartDiseaseModel.sav','rb'))
+diabetes_model=pickle.load(open('Diabetes.sav','rb'))
+breastCancer_pred_model=pickle.load(open('breastCancerPredictionModel.sav','rb'))
 with st.sidebar: 
     
     
